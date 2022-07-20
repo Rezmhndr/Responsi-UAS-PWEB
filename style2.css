@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.nav{
+    font-size: 23px;
+}
+
+.table{
+    border-radius: 12px;
+}
+
+#paket{
+    background-image: url(./img/bg-laundry.jpg);
+    height: 48vw;
+}

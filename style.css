@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.nav{
+    font-size: 25px;
+}
+
+.dashboard{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/bg-laundry.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: #eee;
+}
+
+.dashboard h1{
+    font-size: 70px;
+    color: aliceblue;
+    text-align: center;
+    padding: 350px 0px 0px 0px;
+}
+
+input{
+    color: #eee;
+}
+
+.overlay-form{
+    position: absolute;
+    top: 50vh;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    z-index: -1;
+    opacity: 1;
+    padding: 80px 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: top 500ms ease-in-out, 
+                opacity 500ms ease-in-out,
+                height 0ms ease-in-out 500ms; 
+}
+
+.overlay-form .close-btn{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.overlay-form .form-element{
+    margin: 20px 0px;
+}
+
+.overlay-form label{
+    display: block;
+    font-size: 17px;
+    color: #eee;
+    margin-bottom: 5px;
+}
+
+.overlay-form input{
+    width: 100%;
+    padding: 6px;
+    font-size: 17px;
+    border: 2px solid #eee;
+    background: transparent;
+    outline: none;
+    border-radius: 10px;
+}
+
+.overlay-form button{
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #fff;
+    color: #222;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.center{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center button{
+    width: 150px;
+    height: 40px;
+    font: 600;
+    box-shadow: 3px 3px 2px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+body.activeForm .overlay-form{
+    z-index: 2;
+    opacity: 1;
+    top: 0px;
+    height: 100vh;
+    transition: top 500ms ease-in-out,
+                opacity 500ms ease-in-out,
+                height 0ms ease-in-out 500ms;
+}
+
+.fitur{
+    padding-top: 50px;
+}
+
+.borderbawah{
+    margin: 12px 800px 12px 800px;
+    padding: 12px 0px 0px 50px;
+    border-bottom: 5px solid#7b6e5e;
+    border-radius: 15px 15px;
+}
+
+.card-deck{
+    font-size: 30px;
+}
